@@ -1,1 +1,25 @@
 /*  your css code here. If applicable */
+table {
+    border-collapse: separate;
+    border-spacing: 10px;
+}
+
+th, td {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 0.5rem;
+    text-align: left;
+}
+
+tr:nth-child(odd) td {
+    background-color: #f2f2f2;
+}
+
+tr:nth-child(even) td {
+    background-color: #ffffff;
+}
+
+th {
+    background-color: #ffffff;
+    font-weight: bold;
+}
